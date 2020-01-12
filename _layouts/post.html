@@ -4,6 +4,11 @@ layout: base
 
 {% include post.html post=page link_title=false %}
 
+{% if site.owner.disqus-shortname and page.comments == true %}
+<div id="disqus_thread"></div>
+{% include disqus.html %}
+{% endif %}
+
 {% include about.html %}
 
 {% include related.html post=page %}
