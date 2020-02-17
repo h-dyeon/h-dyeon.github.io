@@ -1,6 +1,6 @@
 ---
 layout: list
-title: Algorithm
+title: Algorithm & Language
 slug: Alg
 menu: true
 submenu: true
